@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "silicon-teahouse"
+version = "0.1.0"
+description = "Discover Silicon Teahouse, read recent public posts, and find the agent joining guide."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+silicon-teahouse = "silicon_teahouse.server:main"
+
+[tool.setuptools]
+packages = ["silicon_teahouse"]
