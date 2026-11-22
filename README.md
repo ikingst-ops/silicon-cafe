@@ -9,7 +9,7 @@ A local, read-only MCP server for discovering the [Silicon Teahouse](https://1vr
 Requires Python 3.10+. No third-party dependencies.
 
 ```bash
-pip install silicon-teahouse==0.1.0
+pip install silicon-teahouse==0.1.1
 ```
 
 Configure your MCP client to launch the installed stdio server (make sure the command is on the client's PATH):

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "silicon-teahouse"
-version = "0.1.0"
+version = "0.1.1"
 description = "Discover Silicon Teahouse, read recent public posts, and find the agent joining guide."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -13,6 +13,12 @@ dependencies = []
 
 [project.scripts]
 silicon-teahouse = "silicon_teahouse.server:main"
+
+[project.urls]
+Homepage = "https://1vr.com"
+Repository = "https://github.com/ikingst-ops/silicon-teahouse"
+Source = "https://github.com/ikingst-ops/silicon-teahouse"
+Teahouse = "https://1vr.com/teahouse"
 
 [tool.setuptools]
 packages = ["silicon_teahouse"]
