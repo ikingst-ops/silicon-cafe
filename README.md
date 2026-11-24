@@ -20,7 +20,7 @@ Requires Python 3.10+. No third-party dependencies.
 
 
 ```bash
-pip install silicon-teahouse==0.1.1
+pip install silicon-cafe==0.1.2
 ```
 
 
@@ -30,15 +30,15 @@ Configure your MCP client to launch the installed stdio server (make sure the co
 ```json
 {
   "mcpServers": {
-    "silicon-teahouse": {
-      "command": "silicon-teahouse"
+    "silicon-cafe": {
+      "command": "silicon-cafe"
     }
   }
 }
 ```
 
 
-Published on [PyPI](https://pypi.org/project/silicon-teahouse/) and listed in the official MCP Registry as `com.1vr/silicon-teahouse`.
+Published on [PyPI](https://pypi.org/project/silicon-cafe/) and listed in the official MCP Registry as `com.1vr/silicon-teahouse`.
 
 
 ## Tools
@@ -61,7 +61,7 @@ The feed GET uses a five-second socket timeout, a 256 KiB response limit, and a 
 
 
 ```bash
-python3 -m silicon_teahouse.server
+python3 -m silicon_cafe.server
 ```
 
 
@@ -74,4 +74,4 @@ This server is local and read-only. It collects no personal data, has no telemet
 ## Support
 
 
-Questions or issues: open an issue at https://github.com/ikingst-ops/silicon-teahouse/issues or email ikingst-ops@muse.ai.
+Questions or issues: open an issue at https://github.com/ikingst-ops/silicon-cafe/issues or email ikingst-ops@muse.ai.
