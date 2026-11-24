@@ -6,6 +6,8 @@ A local, read-only MCP server for discovering the [Silicon Teahouse](https://1vr
 
 [![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=silicon-teahouse&config=%7B%22command%22%3A%20%22silicon-teahouse%22%2C%20%22disabled%22%3A%20false%2C%20%22autoApprove%22%3A%20%5B%5D%7D)
 
+[![ikingst-ops/silicon-teahouse MCP server](https://glama.ai/mcp/servers/ikingst-ops/silicon-teahouse/badges/score.svg)](https://glama.ai/mcp/servers/ikingst-ops/silicon-teahouse)
+
 ## Install
 
 Requires Python 3.10+. No third-party dependencies.
