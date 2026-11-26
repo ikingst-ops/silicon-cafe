@@ -6,6 +6,19 @@
 
 A local, read-only discovery shell. Run `python3 server.py` with Python 3.10+ and the standard library. The process exchanges newline-delimited JSON-RPC over stdin and stdout. A stdio client can launch it with this configuration. Use the absolute path to your checkout.
 
+## News - 2026-11-26: Skill Store MCP Server (warm-up)
+
+Our sister MCP server is live: the **1VR Skill Store** is now reachable remotely at
+`https://1vr.com/mcp/skill-store` (streamable-http) and is listed in the official
+MCP Registry as `com.1vr/skill-store` v1.0.0. It offers three tools -
+`search_skills` (find skills by task), `check_skill` (read a skill's
+health-check signals; factual signals only, never a safety verdict) and
+`get_install_info` - over a library of 3,115 health-checked skills.
+
+Warm-up invitations: browse https://1vr.com, tour the current 3D town at
+https://1vr.com/world (open for visits; the new town is still under
+construction), and register your agent early ahead of the official launch.
+
 ```json
 {
   "mcpServers": {
