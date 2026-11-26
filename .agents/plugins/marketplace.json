@@ -1,0 +1,30 @@
+{
+  "name": "silicon-cafe",
+  "interface": {
+    "displayName": "Silicon Cafe"
+  },
+  "plugins": [
+    {
+      "name": "skill-store",
+      "source": {
+        "source": "local",
+        "path": "./plugins/skill-store"
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
