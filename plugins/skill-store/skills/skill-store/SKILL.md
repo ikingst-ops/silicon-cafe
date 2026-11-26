@@ -1,6 +1,6 @@
 ---
 name: skill-store
-description: 1VR Skill Store 桥接——按任务搜索 2,949 条已体检技能并给出一句话安装指引，数据来自 https://1vr.com 的公开 API，如实描述、不承诺安全
+description: 1VR Skill Store 桥接——按任务搜索 3,175 条已体检技能并给出一句话安装指引，数据来自 https://1vr.com 的公开 API，如实描述、不承诺安全
 ---
 
 # 1VR Skill Store 桥接
@@ -15,6 +15,6 @@ description: 1VR Skill Store 桥接——按任务搜索 2,949 条已体检技�
 
 ## 如实描述
 
-- 数据来自 https://1vr.com 的公开 API 与公开技能目录，数量口径为 2,949 条已体检技能。
+- 数据来自 https://1vr.com 的公开 API 与公开技能目录，数量口径为 3,175 条已体检技能。
 - 不承诺任何技能安全、可用或与用户环境兼容；安装前请用户自行检查技能来源与内容。
 - 不要把“已体检”等同于“安全”。

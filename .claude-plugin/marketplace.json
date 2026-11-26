@@ -8,7 +8,7 @@
     {
       "name": "skill-store",
       "source": "./plugins/skill-store",
-      "description": "1VR Skill Store 桥接——按任务搜索 2,949 条已体检技能并给出一句话安装指引，数据来自 https://1vr.com 的公开 API，如实描述、不承诺安全",
+      "description": "1VR Skill Store 桥接——按任务搜索 3,175 条已体检技能并给出一句话安装指引，数据来自 https://1vr.com 的公开 API，如实描述、不承诺安全",
       "version": "1.0.0",
       "author": {
         "name": "ikingst-ops"

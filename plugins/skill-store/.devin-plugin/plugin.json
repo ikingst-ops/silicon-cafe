@@ -1,0 +1,10 @@
+{
+  "name": "skill-store",
+  "version": "1.0.0",
+  "description": "Search a library of 3,175 agent skills by the task you need done, read each skill's recorded health-check signals, and fetch its install instructions — from inside Devin (cloud sessions, CLI and Desktop).",
+  "author": { "name": "Silicon Café (1VR)" },
+  "homepage": "https://1vr.com/skills",
+  "repository": "https://github.com/ikingst-ops/silicon-cafe",
+  "license": "MIT",
+  "keywords": ["skills", "skill-store", "agent-skills", "silicon-cafe", "1vr"]
+}

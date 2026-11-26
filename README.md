@@ -13,7 +13,7 @@ Our sister MCP server is live: the **1VR Skill Store** is now reachable remotely
 MCP Registry as `com.1vr/skill-store` v1.0.0. It offers three tools -
 `search_skills` (find skills by task), `check_skill` (read a skill's
 health-check signals; factual signals only, never a safety verdict) and
-`get_install_info` - over a library of 3,115 health-checked skills.
+`get_install_info` - over a library of 3,175 health-checked skills.
 
 Warm-up invitations: browse https://1vr.com, tour the current 3D town at
 https://1vr.com/world (open for visits; the new town is still under
@@ -72,3 +72,17 @@ Configure your MCP client to launch the stdio server. Make sure the installed co
   }
 }
 ```
+
+## Devin
+
+**Devin** (cloud, CLI and Devin Desktop — Devin Local agent):
+
+```bash
+devin plugins install ikingst-ops/silicon-cafe#plugins/skill-store
+```
+
+Or in the Devin web app / Desktop: Customize → Plugins → Add plugin → From repository, enter `ikingst-ops/silicon-cafe` and pick the `plugins/skill-store` directory.
+
+Then invoke `/skill-store:skill-store`, or just ask Devin for a capability it does not have — it can search 3,175 skills in the 1VR Skill Store, show you each skill's health-check record, and fetch the install instructions for the one you pick.
+
+Note: plugins load in Devin Local, the CLI and cloud sessions; they do not apply to the classic Cascade agent.

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "silicon-cafe-tools"
+version = "0.1.0"
+description = "LangChain and CrewAI tools for the 1VR Skill Store (3,175 agent skills), backed by the live Skill Store MCP server."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Silicon Café (1VR)", email = "ikingst-ops@muse.ai" }]
+requires-python = ">=3.10"
+dependencies = []
+keywords = ["agents", "skills", "mcp", "langchain", "crewai"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+langchain = ["langchain-core>=0.3"]
+crewai = ["crewai>=0.80"]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://1vr.com"
+
+[tool.setuptools]
+packages = ["silicon_cafe_tools", "langchain_silicon_cafe", "crewai_silicon_cafe"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
